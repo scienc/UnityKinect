@@ -14,6 +14,10 @@ public class GameMain : MonoBehaviour {
     private void Update () {
         if (Input.GetKeyDown (KeyCode.Escape)) {
             Application.Quit ();
+        } else if (Input.GetKeyDown (KeyCode.LeftArrow)) {
+            Debug.Log ("LeftArrow");
+        } else if (Input.GetKeyDown (KeyCode.RightArrow)) {
+            Debug.Log ("RightArrow");
         }
     }
 }
