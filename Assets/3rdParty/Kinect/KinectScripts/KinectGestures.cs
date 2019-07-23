@@ -1036,7 +1036,7 @@ public class KinectGestures : MonoBehaviour
 						break;
 				
 					case 1:  // gesture phase 2 = zooming
-						if((timestamp - gestureData.timestamp) < 0.5f)
+						if((timestamp - gestureData.timestamp) < 3f)
 						{
 							float angle = Vector3.Angle(gestureData.tagVector, vectorWheel) * Mathf.Sign(vectorWheel.y - gestureData.tagVector.y);
 							bool isInPose = jointsTracked[leftHandIndex] && jointsTracked[rightHandIndex] && jointsTracked[hipCenterIndex] && jointsTracked[shoulderCenterIndex] && jointsTracked[leftHipIndex] && jointsTracked[rightHipIndex] &&

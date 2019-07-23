@@ -301,6 +301,21 @@
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>C:/Program Files/Unity2018310/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
+ <Reference Include="DOTween">
+ <HintPath>H:/UnityKinect/JBKinect/Assets/3rdParty/-DOTween/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween43">
+ <HintPath>H:/UnityKinect/JBKinect/Assets/3rdParty/-DOTween/DOTween43.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween46">
+ <HintPath>H:/UnityKinect/JBKinect/Assets/3rdParty/-DOTween/DOTween46.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween50">
+ <HintPath>H:/UnityKinect/JBKinect/Assets/3rdParty/-DOTween/DOTween50.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTweenEditor">
+ <HintPath>H:/UnityKinect/JBKinect/Assets/3rdParty/-DOTween/Editor/DOTweenEditor.dll</HintPath>
+ </Reference>
  <Reference Include="AEPToUnity5">
  <HintPath>H:/UnityKinect/JBKinect/Assets/3rdParty/AEPToUnityAnimation/EAPToUnityTool/Editor/AEPToUnity5.dll</HintPath>
  </Reference>

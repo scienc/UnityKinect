@@ -358,7 +358,7 @@ public class VisualGestureManager : MonoBehaviour
 
 						if(data.isComplete && !data.isResetting && data.confidence >= minConfidence)
 						{
-							Debug.Log(gestureName + " detected.");
+							//Debug.Log(gestureName + " detected.");
 							int userIndex = kinectManager ? kinectManager.GetUserIndexById(data.userId) : 0;
 
 							foreach(VisualGestureListenerInterface listener in visualGestureListeners)
