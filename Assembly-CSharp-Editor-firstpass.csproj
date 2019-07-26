@@ -316,12 +316,6 @@
  <Reference Include="DOTweenEditor">
  <HintPath>H:/UnityKinect/JBKinect/Assets/3rdParty/-DOTween/Editor/DOTweenEditor.dll</HintPath>
  </Reference>
- <Reference Include="AEPToUnity5">
- <HintPath>H:/UnityKinect/JBKinect/Assets/3rdParty/AEPToUnityAnimation/EAPToUnityTool/Editor/AEPToUnity5.dll</HintPath>
- </Reference>
- <Reference Include="JsonFx.json">
- <HintPath>H:/UnityKinect/JBKinect/Assets/3rdParty/AEPToUnityAnimation/EAPToUnityTool/Plugins/JsonFx/JsonFx.json.dll</HintPath>
- </Reference>
  <Reference Include="ICSharpCode.SharpZipLib">
  <HintPath>H:/UnityKinect/JBKinect/Assets/3rdParty/Kinect/KinectScripts/SharpZipLib/ICSharpCode.SharpZipLib.dll</HintPath>
  </Reference>
